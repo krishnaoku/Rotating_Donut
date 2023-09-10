@@ -1,0 +1,20 @@
+
+This is the overview of the mathematical explanation for the spinning doughnut.
+
+
+* The sin() and the cos() are the only trignometric functions present in this code.
+
+*'sini' and 'cosi' are the sin and the cos values of the angle 'i'. The bounds of this angle are 0 to 6.28 (which is 2π), one full circle.
+
+*'sinj' and 'cosj' also follow the same as above.
+
+*Angle 'j' is the vertical postion of the points on the grid and is incremented by 0.02. Angle 'i' is the horizontal positioning, and is incremented by 0.07. 
+
+*'sinA' and 'cosA' represent the sin and the cos values of the rotating angle 'A'. Angle 'A' changes over time, contributing to the rotation.
+
+*'sinB' and 'cosB' also follow the same as angle A.
+
+*Angle 'A' is the rotation around x-axis and is incremented by 0.04. Angle 'B' corresponds to the y-axis rotation and is incremented by 0.02.
+
+
+All of these elements combine together to graph and rotate this magical donut. 
